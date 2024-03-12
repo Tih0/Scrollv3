@@ -721,9 +721,9 @@ def menu():
                 k+=1
 
         case 555:
-            number = list(range(count))
-            random.shuffle(number)
             while (k < numberCircles):
+                number = list(range(count))
+                random.shuffle(number)
                 for i in number:
                     choice = random.randint(1, 2)
                     if choice == 1:
@@ -765,9 +765,9 @@ def menu():
                 k+=1
 
         case 333:
-            number = list(range(count))
-            random.shuffle(number)
             while (k < numberCircles):
+                    number = list(range(count))
+                    random.shuffle(number)
                     for i in number:
                         choice = random.randint(1,2)
                         if choice == 1:
